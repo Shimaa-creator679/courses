@@ -1,0 +1,167 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to Programming",
+      "instructor": "Ahmed Ali",
+      "price": 120,
+      "image": "course1.jpg",
+      "rating": 4.6,
+      "duration": 12,
+      "hours": 24,
+      "lessons": 30,
+      "level": "Beginner",
+      "description": "Learn the basics of programming using an easy and beginner-friendly language.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["What is Programming?", "Variables and Data Types"]
+        },
+        {
+          "week": 3,
+          "lessons": ["Basic Input/Output", "Control Structures"]
+        },
+        {
+          "week": 5,
+          "lessons": ["Functions Introduction", "Mini Project: Calculator"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "UI/UX Design",
+      "instructor": "Sarah Mohamed",
+      "price": 150,
+      "image": "course2.jpg",
+      "rating": 4.8,
+      "duration": 15,
+      "hours": 30,
+      "lessons": 35,
+      "level": "Intermediate",
+      "description": "Discover design principles, user experience concepts, and tools like Figma and Adobe XD.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["Introduction to UI/UX", "User Research Basics"]
+        },
+        {
+          "week": 3,
+          "lessons": ["Wireframing Techniques", "Design with Figma"]
+        },
+        {
+          "week": 5,
+          "lessons": ["Prototyping in Adobe XD", "Case Study: App Design"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Web Development Basics",
+      "instructor": "Mohamed Samir",
+      "price": 100,
+      "image": "course3.jpg",
+      "rating": 4.3,
+      "duration": 10,
+      "hours": 20,
+      "lessons": 25,
+      "level": "Beginner",
+      "description": "Learn HTML, CSS, and JavaScript to build modern websites.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["HTML Introduction", "Creating Web Pages"]
+        },
+        {
+          "week": 3,
+          "lessons": ["CSS Styling Basics", "Responsive Design"]
+        },
+        {
+          "week": 5,
+          "lessons": ["JavaScript Syntax", "Building Your First Website"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "JavaScript for Beginners",
+      "instructor": "Laila Hassan",
+      "price": 130,
+      "image": "course4.jpg",
+      "rating": 4.7,
+      "duration": 14,
+      "hours": 28,
+      "lessons": 32,
+      "level": "Beginner",
+      "description": "Start your JavaScript journey with practical projects and interactive exercises.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["JS Syntax and Basics", "Variables and Operators"]
+        },
+        {
+          "week": 3,
+          "lessons": ["Control Flow", "Loops and Arrays"]
+        },
+        {
+          "week": 5,
+          "lessons": ["Functions and Scope", "Project: To-Do List App"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "React App Development",
+      "instructor": "Amr Ibrahim",
+      "price": 180,
+      "image": "course5.jpg",
+      "rating": 4.9,
+      "duration": 16,
+      "hours": 32,
+      "lessons": 40,
+      "level": "Advanced",
+      "description": "Learn how to build interactive interfaces using the React library with real-world projects.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["React Basics and Setup", "JSX and Components"]
+        },
+        {
+          "week": 3,
+          "lessons": ["Props and State", "Handling Events"]
+        },
+        {
+          "week": 5,
+          "lessons": ["React Router", "Final Project: Blog App"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Database Programming with SQL",
+      "instructor": "Noura Mostafa",
+      "price": 110,
+      "image": "course6.jpg",
+      "rating": 4.5,
+      "duration": 11,
+      "hours": 22,
+      "lessons": 28,
+      "level": "Intermediate",
+      "description": "Learn how to create and query databases using SQL.",
+      "content": [
+        {
+          "week": 1,
+          "lessons": ["Introduction to Databases", "SQL Basics"]
+        },
+        {
+          "week": 3,
+          "lessons": ["SELECT Statements", "Filtering and Sorting Data"]
+        },
+        {
+          "week": 5,
+          "lessons": ["JOINs and Relationships", "Building a Sample Database"]
+        }
+      ]
+    }
+  ]
+}
+
