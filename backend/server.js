@@ -9,7 +9,7 @@ const app = express()
 
 
 app.use(cors({
-  origin: 'https://ubiquitous-mooncake-405e3c.netlify.app/', 
+  origin: 'https://ubiquitous-mooncake-405e3c.netlify.app', 
 }))
 
 // Optional: Set headers manually just in case
