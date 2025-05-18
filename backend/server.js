@@ -2,11 +2,14 @@ const express = require('express')
 const cors = require('cors')
 const jsonServer = require('json-server')
 
+
+
+
 const app = express()
 
-// CORS setup: allow specific origin or all (for dev purposes)
+
 app.use(cors({
-  origin: 'https://ubiquitous-mooncake-405e3c.netlify.app/', // or use your frontend origin: 'https://ubiquitous-mooncake-405e3c.netlify.app'
+  origin: 'https://ubiquitous-mooncake-405e3c.netlify.app/', 
 }))
 
 // Optional: Set headers manually just in case

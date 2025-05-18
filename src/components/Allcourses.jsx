@@ -16,6 +16,7 @@ const Allcourses = () => {
     },[])
 
    
+    console.log(courses)
   return (
     <div className='bg-white pt-40'>
         <div className="container ">
