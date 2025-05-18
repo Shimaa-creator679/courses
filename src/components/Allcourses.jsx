@@ -3,17 +3,26 @@ import Coursecard from './Coursecard'
 
 const Allcourses = () => {
     const[courses,setcourses]=useState([])
+useEffect(() => {
 
-    useEffect(()=>{
+  const fetchdata = async () => {
+    try {
+      const data = await fetch("https://courses-production-f745.up.railway.app/api/courses");
+      if (!data.ok) {
+        console.error('Server responded with status:', data.status);
+        return;
+      }
+      const res = await data.json();
+      setcourses(res);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-        const fetchdata= async()=>{
-             const data=await fetch("https://courses-production-f745.up.railway.app/api/courses")
-             const res=await data.json()
-             setcourses(res)
-        }
+  fetchdata();
 
-        fetchdata();
-    },[])
+}, []);
+
 
    
     console.log(courses)
