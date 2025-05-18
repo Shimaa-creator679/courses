@@ -15,7 +15,7 @@ useEffect(() => {
       const res = await data.json();
       setcourses(res);
     } catch (error) {
-      console.error(error);
+      console.error("error",error);
     }
   };
 

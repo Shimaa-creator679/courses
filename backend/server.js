@@ -21,6 +21,7 @@ app.use((req, res, next) => {
 })
 
 const router = jsonServer.router('db.json')
+console.log("Database:", router.db.getState())
 const middlewares = jsonServer.defaults()
 
 app.use(middlewares)
