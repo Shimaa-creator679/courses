@@ -1,8 +1,12 @@
 const express = require('express')
-
+const cors = require('cors')
 const jsonServer = require('json-server')
 
 const app = express()
+
+// ✅ السماح بكل origins مؤقتًا – تقدرِ تحددي لاحقًا لو حبيتي
+app.use(cors())
+
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
