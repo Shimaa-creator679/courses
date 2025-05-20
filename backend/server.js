@@ -25,7 +25,8 @@ console.log("Database:", router.db.getState())
 const middlewares = jsonServer.defaults()
 
 app.use(middlewares)
-app.use('/api', router)
+app.use(router)
+
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
