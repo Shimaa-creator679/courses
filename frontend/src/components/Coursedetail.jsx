@@ -34,7 +34,8 @@ else{
 
     useEffect(()=>{
         const fetchdata=async()=>{
-            const data= await fetch(`https://watery-tidal-waste.glitch.me/${id}`)
+            const data= await fetch(`https://ten-prism-anaconda.glitch.me${id}`)
+
 
             const res= await data.json();
           setitem(res)

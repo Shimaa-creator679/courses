@@ -20,7 +20,8 @@ const Popular = () => {
     useEffect(()=>{
 
         const fetchdata= async()=>{
-             const data=await fetch("https://watery-tidal-waste.glitch.me")
+             const data=await fetch("https://ten-prism-anaconda.glitch.me")
+
 
              const res=await data.json()
              setcourses(res)
@@ -32,7 +33,8 @@ const Popular = () => {
     useEffect(()=>{
 
         const fetchdata= async()=>{
-             const data=await fetch(`https://watery-tidal-waste.glitch.me?title=${title}`)
+             const data=await fetch(`https://ten-prism-anaconda.glitch.me?title=${title}`)
+
 
              const res=await data.json()
              setcourse(res)
