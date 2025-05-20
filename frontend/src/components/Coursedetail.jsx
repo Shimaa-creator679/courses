@@ -34,7 +34,8 @@ else{
 
     useEffect(()=>{
         const fetchdata=async()=>{
-            const data= await fetch(`https://courses-production-f745.up.railway.app/api/courses/${id}`)
+            const data= await fetch(`https://watery-tidal-waste.glitch.me/${id}`)
+
             const res= await data.json();
           setitem(res)
           setcontent(res.content)

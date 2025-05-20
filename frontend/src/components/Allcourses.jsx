@@ -7,7 +7,8 @@ useEffect(() => {
 
   const fetchdata = async () => {
     try {
-      const data = await fetch("https://courses-production-f745.up.railway.app/api/courses");
+      const data = await fetch("https://watery-tidal-waste.glitch.me");
+
       if (!data.ok) {
         console.error('Server responded with status:', data.status);
         return;
